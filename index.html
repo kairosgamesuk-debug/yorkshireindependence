@@ -191,11 +191,21 @@
                 max-width: 100%;
             }
             
+            .container::before {
+                content: '4 July 2026';
+                display: block;
+                text-align: right;
+                font-size: 0.9em;
+                color: #666;
+                margin-bottom: 20px;
+                font-style: italic;
+            }
+            
             .print-button {
                 display: none;
             }
         }
-        
+                
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5em;
